@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono:ital,wght@1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header div{
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+
+header nav{
+    width: 85%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 5.625rem;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.slider-box {
+        width: 1920px;
+        height: auto;
+        margin: 30px auto 0;
+        
+        animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+    
+    25% {margin-left: -101%;}
+    45% {margin-left: -101%;}
+
+    50% {margin-left: -202%;}
+    70% {margin-left: -202%;}
+
+    75% {margin-left: -303%;}
+    100% {margin-left: -303%;}
+}
+
+@media(max-width:61.9375rem) {
+
+    body {
+        padding: 1.875rem;
+    }
+    .slider-box{
+        width: 100%;
+    }
+}
+
+.description h2 {
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 30px;
+    color: #52A8BB;
+}
+
+.description p {
+    text-align: center;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-size: 25px;
+    margin: 30px 500px 0;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 80px;
+}
+
+.map {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 200px;
+    width: 60%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.61);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.ubi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 120px;
+}
+
+.ubi h2 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: #52A8BB;
+    margin-bottom: 15px;
+}
+
+.ubi p {
+    text-align: center;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-size: 25px;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 30px;
+    bottom: 55px;
+}
+
+footer {
+    background-color: #528FBB;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 170px;
+    box-shadow: 2px 2px 15px rgb(51, 51, 51);
+    height: 100%;
+}
+
+footer h2 {
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    margin: 5px auto 15px;
+    text-decoration: underline;
+}
+
+.foot {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.foot p {
+    font-size: 35px;
+    margin: 25px auto 0;
+    font-weight: 500;
+    font-family: GothamRndBook,Arial,sans-serif;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 100px auto 170px;
+}
+
+.contactos p {
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-weight: 600;
+}
+
+.contactos li {
+    margin-top: 40px;
+}
+
+.contactos h2 {
+    font-size: 60px;
+    text-decoration: underline;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color:#528FBB;
+}
+
+.ubi-mapa {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 60px auto 40px;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgb(51, 51, 51);
+}
+
+.h2-ubi {
+    font-size: 50px;
+    margin-top: 60px;
+    font-family:'Roboto Mono', monospace;
+    color:#528FBB;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.h2-nos {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color:#528FBB;
+    margin: 60px auto 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+.p-nos {
+    text-align:start;
+    font-size: 30px;
+    margin: 40px auto 0;
+    width: 70%;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.p2-nos {
+    text-align:start;
+    font-size: 30px;
+    margin: 20px auto 200px;
+    width: 70%;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-weight: 400;
+}
+
+
+.whatsapp-button {
+    background-color: #528FBB;
+    text-decoration: none;
+    color: black;
+    padding: 10px 70px;
+    font-size: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 2%;
+    font-family: GothamRndBook,Arial,sans-serif; 
+}
+
+.faq h2{
+    font-size: 45px;
+    margin: 10px 2% 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: #528FBB;
+    text-decoration: underline;
+}
+
+.faq p {
+    font-size: 30px;
+    margin: 0 2% 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.preg{
+    text-decoration: underline;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-weight: 550;
+}
+
