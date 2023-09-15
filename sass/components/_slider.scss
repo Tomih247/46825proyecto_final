@@ -1,0 +1,47 @@
+.slider-box {
+    width: 1920px;
+    height: auto;
+    margin: 30px auto 0;
+    
+    animation: slide 16s infinite alternate ease-in-out;
+
+    & ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+
+        & li {
+            width: 100%;
+            list-style: none;
+
+            & img {
+                width: 100%;
+                }
+            }
+        }
+}
+
+
+@keyframes slide {
+0% {margin-left: 0%;}
+20% {margin-left: 0%;}
+
+25% {margin-left: -101%;}
+45% {margin-left: -101%;}
+
+50% {margin-left: -202%;}
+70% {margin-left: -202%;}
+
+75% {margin-left: -303%;}
+100% {margin-left: -303%;}
+}
+
+@media(max-width:61.9375rem) {
+
+body {
+    padding: 1.875rem;
+}
+.slider-box{
+    width: 100%;
+}
+}

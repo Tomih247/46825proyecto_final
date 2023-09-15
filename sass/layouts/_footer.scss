@@ -1,0 +1,36 @@
+footer {
+    background-color: #528FBB;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 170px;
+    box-shadow: 2px 2px 15px rgb(51, 51, 51);
+    height: 100%;
+
+    &  div h2 {
+        font-size: 50px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(26, 26, 26);
+        margin: 5px auto 15px;
+        text-decoration: underline;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        margin-bottom: 60px;
+    
+        & p {
+            font-size: 35px;
+            margin: 25px auto 0;
+            font-weight: 500;
+            font-family: GothamRndBook,Arial,sans-serif;
+        }
+    }
+    
+}
+
+
+

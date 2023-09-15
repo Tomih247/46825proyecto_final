@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    & div{
+        width: 15%;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 22px;
+        margin-left: 22px;
+
+        & nav{
+            width: 85%;
+        }
+    }
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 5.625rem;
+    margin-top: 60px;
+    margin-left: 80px;
+
+    & li a{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        font-family: GothamRndBook,Arial,sans-serif;
+        font-weight: 700;
+    }
+}
+

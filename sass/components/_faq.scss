@@ -1,0 +1,38 @@
+.faq {
+    & h2{
+        font-size: 45px;
+        margin: 10px 2% 25px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 700;
+        color: #528FBB;
+        text-decoration: underline;
+    }
+    & p {
+        font-size: 30px;
+        margin: 0 2% 15px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+}
+
+.preg{
+    text-decoration: underline;
+    font-family: GothamRndBook,Arial,sans-serif;
+    font-weight: 550;
+}
+.whatsapp-button {
+    background-color: #528FBB;
+    text-decoration: none;
+    color: black;
+    padding: 10px 70px;
+    font-size: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 2%;
+    font-family: GothamRndBook,Arial,sans-serif; 
+}
+
+
+
+
+
