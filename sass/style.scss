@@ -5,8 +5,13 @@
 @import "./layouts/footer";
 
 
+@import "./layouts/media/media-1024.scss";
+@import "./layouts/media/media-768.scss";
+@import "./layouts/media/media-425.scss";
 
-@import "./components/slider";
+
+
+
 @import "./components/description";
 @import "./components/map";
 @import "./components/whatsapp";
@@ -14,3 +19,5 @@
 @import "./components/ubicacion";
 @import "./components/nosotros";
 @import "./components/faq";
+@import "./components/valorations";
+@import "./components/galeria";

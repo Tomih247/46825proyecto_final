@@ -1,0 +1,59 @@
+@media (max-width:768px) {
+    header {
+        .navbar{
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            & li a{
+                font-size: 22px;
+            }
+        }
+        .logo img{
+            width: 250%;
+        }
+    }
+    main{
+        .description{
+            & h2{
+                font-size: 45px;
+            }
+            & p{
+                padding: 0 15% 0;
+                font-size: 20px;
+            }
+        }
+        .valorations{
+            & h2{
+                font-size: 200%;
+            }
+            & p{
+                font-size: 138%;
+                margin-right: 0;
+                
+            }
+        }
+        .ubi{
+            & h2{
+                font-size: 35px;
+            }
+            & p{
+                font-size: 18px;
+                padding: 10px 5px;
+            }
+        }
+    }
+    footer{
+        & div h2{
+            font-size: 40px;
+        }
+        .foot{
+            & li img{
+            width: 160%;
+            }
+            & p{
+                font-size: 18px;
+                margin: 0 18px 0;
+            }
+        }
+    }
+}
